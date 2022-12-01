@@ -1,6 +1,10 @@
 public class TiposVariaveis {
+    /**
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
-        double salarioMinimo = 2500;
+        final double salarioMinimo = 2500;
         
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
